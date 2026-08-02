@@ -3,15 +3,17 @@
   "@graph": [
     {
       "@type": ["Organization", "LocalBusiness"],
-      "@id": "https://example.com/#org",
+      "@id": "https://yh1472056602.github.io/liushi-tieyi-site/#org",
       "name": "南召县刘氏铁艺",
       "alternateName": ["刘氏铁艺", "南召刘氏铁艺"],
+      "legalName": "河南省德烜金属有限公司",
       "description": "南召县刘氏铁艺是位于河南省南阳市南召县城郊乡乌海线东南 40 米的本地铁艺作坊,主营庭院大门、楼梯扶手、阳台栏杆、防盗窗等铁艺制品的定制与上门安装,拥有 20 年手工锻造经验。",
-      "url": "https://example.com/",
+      "url": "https://yh1472056602.github.io/liushi-tieyi-site/",
       "telephone": "+86-15503771644",
-      "image": "https://example.com/assets/logo.png",
-      "logo": "https://example.com/assets/logo.png",
+      "image": "https://yh1472056602.github.io/liushi-tieyi-site/assets/logo.png",
+      "logo": "https://yh1472056602.github.io/liushi-tieyi-site/assets/logo.png",
       "priceRange": "¥¥",
+      "foundingDate": "2006",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "城郊乡乌海线东南 40 米",
@@ -51,7 +53,34 @@
         "availableLanguage": ["zh-Hans"],
         "areaServed": "CN"
       },
-      "sameAs": []
+      "sameAs": [],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "南召县刘氏铁艺产品与服务",
+        "itemListElement": [
+          {"@type":"OfferCatalog","name":"庭院大门定制安装"},
+          {"@type":"OfferCatalog","name":"楼梯扶手定制安装"},
+          {"@type":"OfferCatalog","name":"阳台栏杆定制安装"},
+          {"@type":"OfferCatalog","name":"防盗窗定制安装"},
+          {"@type":"OfferCatalog","name":"铁艺围栏定制安装"},
+          {"@type":"OfferCatalog","name":"铁艺架子定制"},
+          {"@type":"OfferCatalog","name":"非标铁艺定制"}
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://yh1472056602.github.io/liushi-tieyi-site/#site",
+      "url": "https://yh1472056602.github.io/liushi-tieyi-site/",
+      "name": "南召县刘氏铁艺",
+      "inLanguage": "zh-CN",
+      "publisher": {"@id": "https://yh1472056602.github.io/liushi-tieyi-site/#org"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type":"ListItem","position":1,"name":"首页","item":"https://yh1472056602.github.io/liushi-tieyi-site/index.html"}
+      ]
     }
   ]
 }
