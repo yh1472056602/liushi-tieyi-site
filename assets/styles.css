@@ -413,4 +413,18 @@ section { padding: 3rem 0; }
   .nav a { font-size: 0.85rem; padding: 0.3rem 0.5rem; }
   .steps-list li { padding-left: 3rem; font-size: 0.92rem; }
   .steps-list li::before { width: 1.6rem; height: 1.6rem; font-size: 0.85rem; }
-}
+}/* 数字事实块 */
+.facts { background: #fdf6f0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.facts-list { list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0.6rem; padding: 0; margin: 0; }
+.facts-list li { background: var(--card); border-left: 4px solid var(--accent); border-radius: 6px; padding: 0.7rem 1rem; font-size: 0.95rem; color: var(--text); }
+.facts-list strong { color: var(--accent-dark); margin-right: 0.3rem; font-size: 1.05rem; }
+/* 关键词首屏段 */
+.keywords { background: #fff; border-bottom: 1px solid var(--line); padding: 1.5rem 0; }
+.keywords p { font-size: 1.02rem; color: var(--text); line-height: 1.85; margin: 0; }
+.keywords strong { color: var(--accent-dark); }
+.keywords a { color: var(--accent); text-decoration: none; font-weight: 600; }
+/* 定义块 */
+.definition-block { background: #fff; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.definition-block h2 { margin-bottom: 0.75rem; }
+.definition-block p { font-size: 1.05rem; color: var(--text); line-height: 1.85; }
+.definition-block strong { color: var(--accent-dark); }
