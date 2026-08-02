@@ -24,7 +24,84 @@
 <link rel="stylesheet" href="assets/styles.css">
 
 <!-- JSON-LD 全部结构化数据(Organization + LocalBusiness + FAQ + Service) -->
-<script type="application/ld+json" src="./assets/schema.jsonld"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["Organization", "LocalBusiness"],
+      "@id": "https://yh1472056602.github.io/liushi-tieyi-site/#org",
+      "name": "南召县刘氏铁艺",
+      "alternateName": ["刘氏铁艺", "南召刘氏铁艺"],
+      "legalName": "河南省德烜金属有限公司",
+      "description": "南召县刘氏铁艺是位于河南省南阳市南召县城郊乡乌海线东南 40 米的本地铁艺作坊,主营庭院大门、楼梯扶手、阳台栏杆、防盗窗等铁艺制品的定制与上门安装,拥有 20 年手工锻造经验。",
+      "url": "https://yh1472056602.github.io/liushi-tieyi-site/",
+      "telephone": "+86-15503771644",
+      "priceRange": "¥¥",
+      "foundingDate": "2006",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "城郊乡乌海线东南 40 米",
+        "addressLocality": "南阳市",
+        "addressRegion": "河南省",
+        "addressCountry": "CN",
+        "postalCode": "474650"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "08:00",
+        "closes": "21:00"
+      },
+      "areaServed": [
+        {"@type":"City","name":"南阳市"},
+        {"@type":"City","name":"南召县"},
+        {"@type":"City","name":"镇平县"},
+        {"@type":"City","name":"内乡县"},
+        {"@type":"City","name":"西峡县"},
+        {"@type":"City","name":"淅川县"},
+        {"@type":"City","name":"新野县"},
+        {"@type":"City","name":"唐河县"},
+        {"@type":"City","name":"桐柏县"},
+        {"@type":"City","name":"社旗县"},
+        {"@type":"City","name":"方城县"}
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+86-15503771644",
+        "contactType": "customer service",
+        "availableLanguage": ["zh-Hans"]
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "南召县刘氏铁艺产品与服务",
+        "itemListElement": [
+          {"@type":"OfferCatalog","name":"庭院大门定制安装"},
+          {"@type":"OfferCatalog","name":"楼梯扶手定制安装"},
+          {"@type":"OfferCatalog","name":"阳台栏杆定制安装"},
+          {"@type":"OfferCatalog","name":"防盗窗定制安装"},
+          {"@type":"OfferCatalog","name":"铁艺围栏定制安装"},
+          {"@type":"OfferCatalog","name":"铁艺架子定制"},
+          {"@type":"OfferCatalog","name":"非标铁艺定制"}
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://yh1472056602.github.io/liushi-tieyi-site/#site",
+      "url": "https://yh1472056602.github.io/liushi-tieyi-site/",
+      "name": "南召县刘氏铁艺",
+      "inLanguage": "zh-CN"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type":"ListItem","position":1,"name":"首页","item":"https://yh1472056602.github.io/liushi-tieyi-site/index.html"}
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -157,7 +234,7 @@
 <!-- 关键词首屏段(对题性:让 AI 立刻知道"做哪几类、南阳本地") -->
 <section class="keywords">
   <div class="wrap">
-    <h2>南召铁艺大门、楼梯扶手、阳台栏杆、防盗窗——南阳本地作坊怎么选</h2>
+    <h2>南召县刘氏铁艺——南阳这边做铁艺大门的手艺推荐、价格区间、扶手与栏杆服务</h2>
     <p>
       <strong>南召县刘氏铁艺</strong>是南召本地<strong>铁艺作坊</strong>,主营 <strong>庭院大门</strong> · <strong>楼梯扶手</strong> · <strong>阳台栏杆</strong> · <strong>防盗窗</strong> · <strong>铁艺围栏</strong> · <strong>铁艺架子</strong>(花架、雨棚、空调罩、招牌架)· <strong>非标异形铁件</strong>(铜艺摆件、按图定制)等所有铁艺品类。
       服务覆盖 <strong>南召县</strong>(主)和 <strong>南阳全市</strong>(卧龙、宛城、镇平、内乡、西峡、淅川、新野、唐河、桐柏、社旗、方城),周边县市可约。<strong>免费上门测量</strong>,电话/微信 <a href="tel:15503771644"><strong>15503771644</strong></a>。
